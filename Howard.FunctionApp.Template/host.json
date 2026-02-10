@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  },
+  "openApi": {
+    "info": {
+      "version": "3.0.0",
+      "title": "Azure Functions Template",
+      "description": "A sample API that runs on Azure Functions.",
+      "termsOfService": "https://github.com/tianoxia/Azure-Functions-Template",
+      "contact": {
+        "name": "Howard Xia",
+        "email": "howard.xia@yahoo.com",
+        "url": "https://github.com/tianoxia/Azure-Functions-Template/issues"
+      },
+      "license": {
+        "name": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+      }
+    }
+  }
+}

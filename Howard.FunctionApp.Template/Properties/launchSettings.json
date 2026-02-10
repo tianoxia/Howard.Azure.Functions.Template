@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Howard.FunctionApp.Template": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "local",
+        "AZURE_DB": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=FunctionsDB;Integrated Security=True",
+        "APPINSIGHTS_INSTRUMENTATIONKEY": ""
+      }
+    }
+  }
+}
